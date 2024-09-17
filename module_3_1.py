@@ -18,6 +18,10 @@ def is_contains(string, list_to_search):
     for i in list_to_search:
         return string.lower() in i.lower()
 
+print(string_info('Capybara'))
+print(string_info('Armageddon'))
+print(is_contains('Urban', ['ban', 'BaNaN', 'urBAN'])) # Urban ~ urBAN
+print(is_contains('cycle', ['recycling', 'cyclic'])) # No matches
+print(calls)
 
-print(string_info)
-print(is_contains)
+
